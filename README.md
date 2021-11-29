@@ -1,4 +1,5 @@
-# Rulesy
-Lets use this for the code
-Paste the files you wanted to send here..
-I couldn't find the one you sent to my email..
+#Rulsey
+
+#you should work on front-end and i'll work on backend 
+to learn php faster or any thing you'd need to learn fast, learn from www.sololearn.com
+and merge it with www.w3schools.com
