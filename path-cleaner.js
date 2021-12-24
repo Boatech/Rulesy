@@ -1,13 +1,19 @@
 /**** Banana Ols Library script 
 copyrights of Apaxaa Studios Inc 
 
+License -- MIT License
+
+https://github.com/phaxadstudios
+
+
 Future License www.apaxaa.com/scripts/Olsen/path_cleaner/license
 
 version - 0.0.2
 
 reviewed : 24th December 2021
-error_includes / "total: mainstream stream"
+error_includes / "total: overide mainstream stream"
 
+for development . For production, visit our Github Page 
 note from :Augustine ~ Hi there this is not part of the script and was injected 
 via downloading request from wherever you downloaded this script from , for now
  we have many downloading point and we don't have a website of our own yet, due 
@@ -19,9 +25,9 @@ note from :Israel ~ Hi thanks for using our scripts,
 path-cleaner ols is a vital must if you trying to clean your file extensions
 and it's a package which you should include in the main component. 
 it is a cleaning based package that cleans the whole application through saucy 
-pocket drap ...Please do not edit this script, to pass your particular data into
+pocket drap ...Please do not edit this script to avoid problems, to pass your particular data into
  this script download the required pockets libraries and use pocket to make
-  your data requests
+  your data requests and changes
 
 **/
 
