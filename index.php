@@ -10,6 +10,7 @@
   <head>
   	 <title>Rulsey</title>
      <link rel="stylesheet" type="text/css" href="./blog/assets/vendor/bootstrap-icons/bootstrap-icons.css">
+     <link rel="stylesheet" type="text/css" href="./saucy_package/dist/development_use/css/saucy.css" />
      <style type="text/css">
        <?php
         include './blog/assets/vendor/bootstrap/css/bootstrap.min.css'; 
@@ -63,13 +64,14 @@
         <div class="sidebarRow">
           <div class="nav-item dropdown  fortheprofile">
 
-          <a class="nav-link nav-profile d-flex align-items-center  forprofile" href="javascript:void(0)" data-bs-toggle="dropdown"><img src="testimages/profile-3.jpg" alt="Profile" class="rounded-circle user__avatar">
-            <span class="d-none d-md-block ps-2">Nnamchi Israel</span>
+          <a class="nav-link nav-profile d-flex align-items-center  forprofile" href="javascript:void(0)" data-bs-toggle="dropdown">
+		  <img src="testimages/profile-3.jpg" alt="Profile image {username} " class="rounded-circle user__avatar">
+            <span class="d-none d-md-block ps-2">Lastname Firstname</span>
           </a>
 
           <ul class="dropdown-menu  profile">
             <li class="dropdown-header">
-              <span><b class="bold tc">@israel</b></span>
+              <span><b class="bold tc">@username</b></span>
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -96,7 +98,7 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+              <a class="dropdown-item d-flex align-items-center"href="javascript:void(0)">
                 <i class="bi bi-question-circle"></i>
                 <span>Need Help?</span>
               </a>
@@ -106,9 +108,9 @@
             </li>
 
             <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
+              <a class="dropdown-item d-flex align-items-center" href="javascript:void(0)">
                 <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
+                <span>Log Out</span>
               </a>
             </li>
 
