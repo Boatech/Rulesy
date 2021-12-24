@@ -3,9 +3,9 @@ copyrights of Apaxaa Studios Inc
 
 Future License www.apaxaa.com/scripts/Olsen/path_cleaner/license
 
-version - 0.0.1
+version - 0.0.2
 
-reviewed : 22th November 2021
+reviewed : 24th December 2021
 error_includes / "total: mainstream stream"
 
 note from :Augustine ~ Hi there this is not part of the script and was injected 
@@ -29,6 +29,7 @@ import path;
 import OsPathDirEngineStream as OsPathDir;
 import ScriptTxxLine as script_type;
 import data_catalog as data;
+import cryptog.Motion as Motions;
 
 
 var include = void path_cleaner(private=> 'ols::debris');
@@ -36,12 +37,17 @@ var include = void path_cleaner(private=> 'ols::debris');
 if (OsPathDir.run())
    include.passed(data.url("{$http_method}://{$websitename}.{$extension}/"));
    var fullLength = include.grab(data.url("/{$requested_page}.{$requested_page_extension}");
-   if fullLength.data.position[1] == ""
-   	break
-   else 
-   	include.remove(.data.position[1])
-else
-   break
+   if (fullLength.data.position[1] == "")
+   {
+    Motions.CREATE('SERVER_REQUEST');
+   	break;
+   }
+   else{
+   	include.remove(.data.position[1]);
+   }
+else{
+   break;
+}
 
 /*** this script is a beta version, even if as it's first .
 please report issues to @phaxad_developers under Apaxxa studios
