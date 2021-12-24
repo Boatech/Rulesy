@@ -1,3 +1,29 @@
+<?php 
+
+
+
+//Set the Content-Security-Policy header with PHP.
+header("Content-Security-Policy: frame-ancestors 'none'");
+?>
+<?php if (substr_count($_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip')) ob_start("ob_gzhandler"); else ob_start(); 
+?>
+<?php
+ob_start("compress_code");
+
+function compress_code($code) 
+{
+ $search = array(
+  '/\>[^\S ]+/s',  // remove whitespaces after tags
+  '/[^\S ]+\</s',  // remove whitespaces before tags
+  '/(\s)+/s'       // remove multiple whitespace sequences
+ );
+
+ $replace = array('>','<','\\1');
+ $code = preg_replace($search, $replace, $code);
+ return $code;
+}
+
+?>
 
 
 
