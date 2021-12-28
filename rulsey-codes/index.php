@@ -108,14 +108,7 @@
 
 <?php include 'includes/end_footer.php'; ?>
 
-  <script src="./blog/assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-  <script src="./blog/assets/vendor/php-email-form/validate.js"></script>
-  <script src="./blog/assets/vendor/quill/quill.min.js"></script>
-  <script src="./blog/assets/vendor/tinymce/tinymce.min.js"></script>
-  <script src="./blog/assets/vendor/simple-datatables/simple-datatables.js"></script>
-  <script src="./blog/assets/vendor/chart.js/chart.min.js"></script>
-  <script src="./blog/assets/vendor/apexcharts/apexcharts.min.js"></script>
-  <script src="./blog/assets/vendor/echarts/echarts.min.js"></script>
+
 
 <?php 
 // include 'bottom_cache.php'; ?>    
