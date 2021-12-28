@@ -1,7 +1,7 @@
-**minify every source code and keep a copy of them before minimizing them
-**reduce some images sizes and change some to svgs.....
-**Keep a copy of unminified projects in a copy folder located in the rulseycopies folder in xampp.
-**learn big database to use , do not use MySQl but it can be use for Rulsey V1.0.0
+** create a minifier every source code and keep a copy of them before minimizing them
+**reduce some images sizes and change some to svgs and use GZIP in PHP.....
+**Keep a copy of unminified projects in a copy folder located in the rulseycopies folder in xampp. by creating automated save in PHP
+**learn big database to use , do not use MySQl but it can be use for Rulsey V1.0.0, because it's not ideal for social media platforms
 **create a website called www.rulseyprojects.com 
 from there we would load images , scripts and css scripts. The website is unaccessible by anyone.
 
