@@ -11,9 +11,7 @@
   	 <title>Rulsey</title>
      <link rel="stylesheet" type="text/css" href="./blog/assets/vendor/bootstrap-icons/bootstrap-icons.css">
      <style type="text/css">
-       <?php
-        include './blog/assets/vendor/bootstrap/css/bootstrap.min.css'; 
-        ?>
+      
       a, .forprofile{
         text-decoration: none;
         color: inherit
@@ -69,54 +67,7 @@
             <comment value="users_name controls {{% 'Nnamchi Israel' %}} "/>
           </a>
 
-          <ul class="dropdown-menu  profile">
-            <li class="dropdown-header">
-              <span><b class="bold tc" value="username" title="username">@israel</b></span>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-
-                <icon from="bootstrap-icons" class="bi-person" />
-                <i class="bi bi-person"></i>
-                <span>Profile</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-gear"></i>
-                <span xmlns:="http://www.w3.org/1999/xhtml">Post Story</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
-                <i class="bi bi-question-circle"></i>
-                <span>Need Help?</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
-              </a>
-            </li>
-
-          </ul><!-- End Profile Dropdown Items -->
+         
            <hr class="dropdown-divider">
         </div>
           <p><!-- include('sense.ols') --></p>
