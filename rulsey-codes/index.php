@@ -62,14 +62,12 @@
         <div class="sidebarRow">
           <div class="nav-item dropdown  fortheprofile">
 
-          <a class="nav-link nav-profile d-flex align-items-center  forprofile" href="javascript:void(0)" data-bs-toggle="dropdown"><img src="testimages/profile-3.jpg" alt="Profile" class="rounded-circle user__avatar">
-            <span class="d-none d-md-block ps-2" title="{users_name}">Nnamchi Israel</span>
-            <comment value="users_name controls {{% 'Nnamchi Israel' %}} "/>
-          </a>
-
-         
-           <hr class="dropdown-divider">
-        </div>
+            <a class="nav-link nav-profile d-flex align-items-center  forprofile" href="javascript:void(0)" data-bs-toggle="dropdown"><img src="testimages/profile-3.jpg" alt="Profile" class="rounded-circle user__avatar">
+               <span class="d-none d-md-block ps-2" title="{users_name}">Nnamchi Israel</span>
+               <comment value="users_name controls {{% 'Nnamchi Israel' %}} "/>
+            </a>
+            <hr class="dropdown-divider">
+         </div>
           <p><!-- include('sense.ols') --></p>
         </div>
 
@@ -81,23 +79,18 @@
         <!--   starts -->
         <?php include 'includes/uploading_sector.php'; ?>
         <!--   ends -->
-
-       <?php include 'includes/posts_sector.php'; ?>
+        <?php include 'includes/posts_sector.php'; ?>
       </div>
       <!-- feed ends -->
 
       <div style="flex: 0.33" class="widgets">
         <div class="white pad-top-five">
-        
-
-
-
-	<?php include 'includes/right_sidebar.php'; ?>
-		</div>
-  </div>
+	        <?php include 'includes/right_sidebar.php'; ?>
+		    </div>
+     </div>
  
   
-</div>
+    </div>
 <!-- if render == 200: -->
    <!-- js dark mode type = "asinfacnsi7ryv8w45y78riu" -->
    <script type="text/javascript" async defer src="js/dark_mode.js"></script>
