@@ -9,32 +9,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" id="rulsey-overleached">
   <head>
   	 <title>Rulsey</title>
-     <link rel="stylesheet" type="text/css" href="./blog/assets/vendor/bootstrap-icons/bootstrap-icons.css">
-     <style type="text/css">
-      
-      a, .forprofile{
-        text-decoration: none;
-        color: inherit
-      }
-      .fortheprofile:hover{
-        /*padding-right: 3rem*/;
-        outline: none;
-      }
-      a:hover,.forprofile:hover{
-        text-decoration: none;
-        color: inherit;
-      }
-      .nav-item{
-        color: inherit;
-      }
-      .forprofile:visited{
-        color: inherit;
-      }
-      .profile{
-        color: inherit;
-        width: 130%;
-      }
-     </style>
+    
 <!-- none of your buisness -->
       <!--...-->
       <!-- none of your buisness -->
