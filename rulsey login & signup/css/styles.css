@@ -78,7 +78,7 @@ a {
  ********/
 
 .form-container,
-.form {
+.form, .form-container-register {
   display: flex;
   flex-direction: column;
 }
@@ -88,6 +88,13 @@ a {
   margin: 0 auto;
   padding: 0 2rem;
 }
+
+.form-container-register {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 
 .form {
   background: var(--white);
@@ -106,9 +113,29 @@ a {
   border-radius: 6px;
 }
 
+
+
 .input-container:focus-within {
   border-color: var(--blue1);
   box-shadow: 0 0 0 2px var(--light-blue);
+}
+.input-container--fields {
+  margin: 1rem 0;
+}
+
+.form > p{
+  font-weight: 400;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.form > h1{
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .input-container--password {
@@ -141,7 +168,7 @@ a {
   width: 100%;
   padding: 0 1.6rem;
   color: var(--black);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .form-input:focus {
@@ -149,11 +176,12 @@ a {
 }
 
 .form-input:focus::placeholder {
-  opacity: 0.5;
+  opacity: 0.2;
+  font-size: 100%;
 }
 
 .form-input::placeholder {
-  opacity: 0.9;
+  opacity: 0.3;
 }
 
 .form-log-in-btn {
@@ -176,6 +204,11 @@ a {
 .form-forgot-password {
   font-size: 1.3rem;
   color: var(--blue1);
+  align-self: center;
+}
+.already-have-an-account {
+  font-size: 1.3rem;
+  color: var(--gray5);
   align-self: center;
 }
 

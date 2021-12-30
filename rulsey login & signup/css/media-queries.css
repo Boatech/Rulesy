@@ -1,6 +1,7 @@
 /* These styles will be applied on devices with a width of at least 500px */
 @media screen and (min-width: 500px) {
   .container {
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,6 +82,7 @@
 
 /* These styles will be applied on devices with a width of at least 1075px */
 @media screen and (min-width: 1075px) {
+
   .title-container {
     width: 58rem;
     padding-bottom: 12rem;
