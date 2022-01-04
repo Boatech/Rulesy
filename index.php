@@ -18,6 +18,17 @@
   	<!-- importation of meta (::balletstrean) -->
     <?php   include 'includes/meta_data.php'; ?>
    <!--end of importation in  source code -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+	  <style>
+		  *{
+			 font-family: 'Work Sans', sans-serif;
+		  }
+		  div, section, nav, p, h1, h2, h3, h4, h5, h6{
+			  font-family: 'Work Sans', sans-serif;
+		  }
+	  </style>
 
   </head>
 
