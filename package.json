@@ -1,7 +1,7 @@
 {
-  "name": "phaxad",
+  "name": "Rulsey",
   "version": "1.0.0",
-  "description": "A development platform that helps developers build fast and easy projects.",
+  "description": "A social media platform.",
   "scripts": {
     "tailwind": "tailwindcss build public/assets/css/tailwind.css -o public/assets/css/tailwind.output.css",
     "build": "env NODE_ENV=production postcss public/assets/css/tailwind.css -o public/assets/css/tailwind.output.css",
@@ -24,10 +24,10 @@
     "tailwindcss-multi-theme": "1.0.3"
   },
   "keywords": [
-    "development",
-    "phaxad",
-    "team collaboration",
-    "advance",
+    "social media",
+    "platform",
+    "meet your friends",
+    "chat app",
     "system"
   ],
   "release-it": {
