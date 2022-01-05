@@ -1,0 +1,38 @@
+** create a minifier every source code and keep a copy of them before minimizing them
+**reduce some images sizes and change some to svgs and use GZIP in PHP.....
+**Keep a copy of unminified projects in a copy folder located in the rulseycopies folder in local folder. by creating automated save in PHP
+**learn big database to use , do not use MySQl but it can be use for Rulsey V1.0.0, because it's not ideal for social media platforms
+**create a website called www.rulseyprojects.com 
+from there we would load images , scripts and css scripts. The website is unaccessible by anyone.
+
+
+
+meta tags specially for mobile view...
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title" content="social"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+this meta tag is an example tag from a github using google verifications
+<meta name="google-site-verification" content="gGza-01LM9TCvGa9WfIGp5nVJKzaN4nOSSSAfX-vyGU"/>
+
+
+learn how to create a forbidden page using php, error pages using not .htacess but Roid Kit 
+
+Rulsey V1.0.0 is built in pure PHP, JS, and stylets --DB(mysql)
+Rulsey V1.0.1 is to be built in Lavarel PHP, JS and stylets
+Rulsey V1.0.2 is to be built in Lavarel PHP, JS,stylet and Python 
+Rulsey V1.0.3 is to be built in Saucy PHP, JS,stylets, Python
+and Mainstream.
+
+Rulsey V1.0.4 is to be built in Block PHP, React.JS,Stylet.css, Python, Plain.JS , trax.js, Traxorithm and Mainstream.
+
+Rulsey V1.0.5 is to be built in Block PHP, React.JS, Node.js ,Stylet.css, Python, Plain.JS , trax.js, Traxorithm,  Mainstream
+
+
+
+
+
+
+
+   
