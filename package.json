@@ -52,7 +52,6 @@
   "dependencies": {
     "@themesberg/flowbite": "^1.2.0",
     "daisyui": "^1.21.0",
-    "sharect": "^2.0.0",
     "vue": "^2.6.14",
     "vue-tailwind": "^2.5.0"
   }
