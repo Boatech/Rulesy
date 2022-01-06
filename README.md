@@ -11,7 +11,7 @@ There are other things you need to download , here is [tailwind] (https://tailwi
 
 That's all you need to install for now!
 
-1. go to command prompt and change the path `cd C:\xampp\projects\htdocs\phaxad` hit enter 
+1. go to command prompt and change the path `cd C:\xampp\projects\htdocs\rulesy` hit enter 
 2. After you are in the  project  enter `npm init`
 3. Then you can start up localhost and open the project , please not that you can use for example `/index` instead of `/index.php`, i have configured it to remove extensions, that's in the *.htaccess* file
 4. I actually used [NVDA](https://www.nvaccess.org/) to read my screen during development
