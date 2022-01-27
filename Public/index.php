@@ -1,92 +1,75 @@
-
-<?php 
-// include 'top_cache.php'; 
-?>
-<!-- importation of boiler_plate(type:html, includes(css,js,olsen,pocket)) -->
-<!-- render rusley indept of 123.44442.324554.t56456343 -->
-
+<?php include 'path.php';?>
+<?php include 'assets/php/timestamp.construct.php'; ?>
+<?php //include './assets/php/gzip.compress.keep-alive.php'; ?>
+<?php include ROOT_PATH .  '/assets/php/backend.construct.php'; ?>
+<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" id="rulsey-overleached">
+<html  :class="{ 'theme-dark': dark }" x-data="data()" xmlns="http://www.w3.org/1999/xhtml"  dir="ltr" loc="en">
   <head>
-  	 <title>Rulsey</title>
-    
-<!-- none of your buisness -->
-      <!--...-->
-      <!-- none of your buisness -->
-
-
-  	<!-- importation of meta (::balletstrean) -->
-    <?php   include 'includes/meta_data.php'; ?>
-   <!--end of importation in  source code -->
-
+    <?php include ROOT_PATH . '/paritals/includes_meta/meta-for-index.php'; ?>
+    <script>
+      <?php include ROOT_PATH .  '/assets/js/darkmode.init.rulsey.js'; ?>
+    </script>
   </head>
-
-  <body data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" accessibility="true" responsive="responsive">
-
- <modem class="auto-increment-five" margin="5top-4rem">
-
-<?php include 'includes/header.php'; ?>
-<div class="small-header">
-<?php include 'includes/smallheader.php'; ?>
-</div>
-<style type="text/css">
-      <?php include 'css/styles.css'; ?>
-    </style>
+  <body onView="request(mainstream::props('https://www.rulseyprojects.com/cached-version?v=1.0')">
+ 
+<?php include ROOT_PATH .  '/paritals/home_includes/header.php'; ?>
+<style type="text/css">@media(max-width: 1188px){
+  .sidebar{
+    display: none;
+  }
+  .header__left, .header__right{
+    display: none;
+  }
+}
+</style>
 
     <!-- main body starts -->
-    <div class="main__body">
+    <div class="main__body dark:bg-gray-900">
       <!-- sidebar starts -->
       
-      <div class="sidebar">
+      <div class="sidebar dark:bg-gray-900 dark:text-gray-200">
+        
+              
         <div class="sidebarRow">
-          <div class="nav-item dropdown  fortheprofile">
+          <a href="./profile"><img src="http://127.0.0.1/phaxad/friend/profile_images/<?php echo $user_data->user_image; ?>" width="40px" height="40px" class="border-0 rounded-full"></a>
+          <a href= "<?php echo BASE_URL . '/profile'; ?>">
+          <p> &nbsp;<?php echo $user_data->username;?></p>
+        </a>
+        
 
-            <a class="nav-link nav-profile d-flex align-items-center  forprofile" href="javascript:void(0)" data-bs-toggle="dropdown"><img src="testimages/profile-3.jpg" alt="Profile" class="rounded-circle user__avatar">
-               <span class="d-none d-md-block ps-2" title="{users_name}">Nnamchi Israel</span>
-               <comment value="users_name controls {{% 'Nnamchi Israel' %}} "/>
-            </a>
-            <hr class="dropdown-divider">
-         </div>
-          <p><!-- include('sense.ols') --></p>
         </div>
         <div class="side-bar">
 
-        <?php include 'includes/sidebar_rows.php'; ?>
+        <?php include ROOT_PATH .  '/paritals/home_includes/sidebar_rows.php'; ?>
         </div>
       </div>
 
  
       <div class="feed">
-        <?php include 'includes/stories_section.php'; ?>
+        <?php include ROOT_PATH .  '/paritals/home_includes/stories_section.php'; ?>
         <!--   starts -->
-        <?php include 'includes/uploading_sector.php'; ?>
+        <?php include ROOT_PATH .  '/paritals/home_includes/uploading_sector.php'; ?>
         <!--   ends -->
-        <?php include 'includes/posts_sector.php'; ?>
+        <?php include ROOT_PATH .  '/paritals/home_includes/posts_sector.php'; ?>
       </div>
 
       <!-- feed ends -->
      
-      <div style="flex: 0.33" class="widgets">
-        <div class="white pad-top-five">
-	        <?php include 'includes/right_sidebar.php'; ?>
+      <div style="flex: 0.33" class="widgets ">
+        <div class="white pad-top-five ">
+	        <?php include ROOT_PATH .  '/paritals/home_includes/right_sidebar.php'; ?>
 		    </div>
      </div>
-     
- 
-  
+
     </div>
-<!-- if render == 200: -->
-   <!-- js dark mode type = "asinfacnsi7ryv8w45y78riu" -->
-   <script type="text/javascript" async defer src="js/dark_mode.js"></script>
-<!-- js dark mode type = "asinfacnsi7ryv8w45y78riu" ends -->
+   <script type="text/javascript" async defer src="/dark_mode.js"></script>
 
-<script type="text/javascript" src="js/online_detector.js"></script>
-
-<?php include 'includes/end_footer.php'; ?>
+<?php include ROOT_PATH .  '/paritals/home_includes/end_footer.php'; ?>
 
 
 
-<?php 
-// include 'bottom_cache.php'; ?>    
+<script src="./assets/js/darkmode.rulsey.js"></script>
+   
 </body>
 </html>
