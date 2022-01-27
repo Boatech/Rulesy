@@ -6,4 +6,5 @@
 <meta data-react-helmet="true" name="hostname" content="rulsey.com" />
 <meta data-react-helmet="true" name="user-login" content="<?php echo $user_data->username;?>" />
 <meta data-react-helmet="true" name="page-subject" content="rulsey.com" />
+<!-- change this so it can work properly.. -->
 <?php include 'http://127.0.0.1/phaxad/rulsey/public/paritals/home_includes/meta_data.php'; ?>
