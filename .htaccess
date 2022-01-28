@@ -3,7 +3,7 @@ AddHandler php5-script php
 AddType text/html php
 
 RewriteEngine On
-ErrorDocument 404 http://127.0.0.1/phaxad/home/public/404
+ErrorDocument 404 http://127.0.0.1/phaxad/rulsey/public/errora/404
 ErrorDocument 403 http://127.0.0.1/phaxad/home/public/403
 
 # Deny access to .htaccess
