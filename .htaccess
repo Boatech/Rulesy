@@ -2,9 +2,18 @@ Options +MultiViews
 AddHandler php5-script php
 AddType text/html php
 
+# error pages are already designed from Apaxaa and that's were the error would lead to..
 RewriteEngine On
-ErrorDocument 404 http://127.0.0.1/phaxad/rulsey/public/errora/404
-ErrorDocument 403 http://127.0.0.1/phaxad/home/public/403
+ErrorDocument 404 http://localhost/paxaa/errors/404
+
+
+ErrorDocument 403 http://localhost/paxaa/errors/403
+ErrorDocument 503 http://localhost/paxaa/errors/504
+ErrorDocument 500 http://localhost/paxaa/errors/500
+ErrorDocument 408 http://localhost/paxaa/errors/408
+
+ErrorDocument 400 http://localhost/paxaa/errors/400
+ErrorDocument 401 http://localhost/paxaa/errors/401
 
 # Deny access to .htaccess
 <Files .htaccess>
@@ -18,3 +27,10 @@ Deny from all
 	Deny from all
 	Satisfy all
 </Files>
+# allows to use sessions in subdomain-> php_value session.cookie_domain .example.com
+
+
+
+<If "%{REQUEST_URI} =~ m#^/app($|/)#">
+    Require all denied
+</If>
