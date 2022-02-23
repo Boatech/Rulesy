@@ -1,6 +1,14 @@
 # hello guys
 
 Now this project uses node.js, tailwindCSS, stylet.css,  PHP, Hack(from FaceBook) and Olsen Mainstream. Later on we will rebuild in react.js
+![bandicam 2022-01-19 01-50-59-722](https://user-images.githubusercontent.com/91748627/155253344-ef3471fe-5405-454f-be87-cc27e80a72cf.jpg)
+![bandicam 2022-02-23 03-11-38-659](https://user-images.githubusercontent.com/91748627/155253369-8232710c-e706-43e8-91d9-c4c0338f4ca8.jpg)
+
+Rulsey and Spatrix use the same Olsen codes
+
+![bandicam 2022-02-03 21-53-45-042](https://user-images.githubusercontent.com/91748627/155253429-13f4fa88-b243-408e-ac94-037fc643be52.jpg)
+![bandicam 2022-02-05 15-47-15-113](https://user-images.githubusercontent.com/91748627/155253433-228952d2-9ebb-41c5-86d8-3af9896f44f8.jpg)
+
 
 So to use you must have NPM installed.Am assuming we all use Windows, if yes then check out  🧪 [how to install Node.js](https://phoenixnap.com/kb/install-node-js-npm-on-windows) You can check if it was downloaded successfully by entering `npm -v` in your terminal. If you are using Mac however, you can check it out [how to install Node.js (mac)](https://phoenixnap.com/kb/install-npm-mac) 
 
