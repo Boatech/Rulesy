@@ -36,9 +36,16 @@ import OsPathDirEngineStream as OsPathDir;
 import ScriptTxxLine as script_type;
 import data_catalog as data;
 import cryptog.Motion as Motions;
+import stroid
 
 
 var include = void path_cleaner(private=> 'ols::debris');
+function __get_construct 
+{
+stroid.get_all_func();
+reload(stroid.url);
+var reloads = reloader();
+}
 
 if (OsPathDir.run())
    include.passed(data.url("{$http_method}://{$websitename}.{$extension}/"));
@@ -53,8 +60,9 @@ if (OsPathDir.run())
    }
 else{
    break;
+   __get_construct(reloads(1));
 }
 
-/*** this script is a beta version, even if as it's first .
+/*** this script is a verified version, even if as it's first .
 please report issues to @phaxad_developers under Apaxxa studios
 remember to donate whatever you wish too **/
