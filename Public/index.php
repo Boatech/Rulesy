@@ -2,6 +2,7 @@
 <?php include 'assets/php/timestamp.construct.php'; ?>
 <?php //include './assets/php/gzip.compress.keep-alive.php'; ?>
 <?php include ROOT_PATH .  '/assets/php/backend.construct.php'; ?>
+<?php include ROOT_PATH . '/assets/php/redirect.php';?>
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html  :class="{ 'theme-dark': dark }" x-data="data()" xmlns="http://www.w3.org/1999/xhtml"  dir="ltr" loc="en">
